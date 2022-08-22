@@ -1,0 +1,421 @@
+@media (max-width:1182px){
+    
+    .link{
+        font-size: 14px;
+    }
+    .header__corosel-text{
+        transform: translate(80%,-160%) ;
+    }
+    .aboutUs{
+        display: block;
+        margin: 0 auto;
+    } 
+    .aboutUs__left {
+        text-align: center;
+    }
+    .aboutUs__title {
+        text-align: center;
+    }
+
+    .aboutUs__text {
+        margin: 0 auto;
+        text-align: left !important;
+    }
+
+    .aboutUs__block {
+        max-width: 666px;
+        margin: 0 auto;
+    }
+
+    .benefits {
+        display: block;
+    }
+    .benefits__img {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .benefits__left {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -126%);
+        text-align: center;
+    }
+    .benefits__block {
+     
+        margin: 10px 0;
+    }
+    .benefits__block-title {
+    }
+
+    .benefits__right {
+        padding: 100px 0;
+        text-align: center;
+    }
+
+    .benefits__ul {
+        text-align: left;
+    }
+    .benefits__li {
+    display: flex;
+    justify-content: center;
+
+    }
+
+    .ourService {
+        display: block;
+    }
+    .ourService__service {
+        
+        margin: 0 auto;
+    }
+    .ourService__title{
+        display: flex;
+        justify-content: center;
+    }
+    .accordion {
+        margin: 0 auto;
+        padding-bottom: 100px;
+    }
+
+    .ourService__security {
+        text-align: center;
+        padding-left: 0px;
+    }
+    .ourService__img {
+    }
+    .ourService__text-in-security {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .accordion-body-text{
+        
+    }
+    .ourService__subtitle {
+        display: flex;
+        justify-content: center;
+    }
+    .testimonial__container {
+        justify-content: space-evenly;
+    }
+
+    .testimonial__right {
+        padding:75px 45px 35px 60px;
+    }
+
+    .testimonial__cardtext {
+        max-width: 400px;
+    }
+
+    .form {
+        padding-top: 20px;
+        display: block;
+    }
+    .limits {
+    }
+    .form__left {
+        text-align: center;
+    }
+    .form__title {
+        padding-top: 30px;
+    }
+    
+    .form__right {
+ 
+        margin: 100px auto 0;
+    }
+    .cartResolution{
+        width: 300px;
+        height: 160px;
+    }
+    .footer__infoCarts {
+        justify-content: center;
+    }
+    .footer__body {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .footer__body__inner {
+        display: flex;
+        
+    }
+    .limits {
+    }
+    .footer__width{
+       width: auto;
+    }
+    .footer__aboutMedPro {
+    }
+    .footer__title {
+        font-size: 28px;
+    }
+    .title {
+    }
+    .asap-font {
+    }
+    .footer__text {
+        font-size: 14px;
+    }
+    .header__corosel-text{
+      transform: translate(90%,-160%);
+    }
+    .header__coroselh3 {
+        font-size: 24px;
+        max-width: 400px;
+    } 
+    .header__coroselh1{
+      font-size: 70px;
+    }
+    .header__corosel-button{
+        padding: 15px 60px;
+    }
+
+
+}
+
+@media  (max-width:970px){
+    body.lock{
+        overflow-y: hidden;
+    }
+    .header__burgerMenu{
+        width: 35px;
+        height: 25px;
+        cursor: pointer;
+        position: relative;
+        display: block;
+       
+        z-index: 3;
+    }
+    .header__burgerMenu span,
+    .header__burgerMenu::before,
+    .header__burgerMenu::after{
+        left: 0;
+        position: absolute;
+        height: 10%;
+        width: 100%;
+        transition: all 1s ease 0s;
+        background-color: gray;
+        
+    }
+    .header__burgerMenu::before,
+    .header__burgerMenu::after{
+        content: "";
+    }
+    .header__burgerMenu::before{
+        top: 0;
+    }
+    .header__burgerMenu::after{
+        bottom: 0;
+    }
+    .header__burgerMenu.active{
+        transform: translate(238%,0%);
+        transition: all 1s ease
+    }
+    .header__burgerMenu{
+        transform: translate(0%,0%);
+        transition: all 1s ease
+    }
+    .header__burgerMenu span {
+        top: 50%;
+        transform: scale(1) translate(0px,-50%);
+    }
+    .header__burgerMenu.active span{
+        transform: scale(0) translate(0px,-50%);
+    }
+    .header__burgerMenu.active::before{
+        top:50%;
+        transform: rotate(-45deg) translate(0px,-50%);
+        
+    }
+    .header__burgerMenu.active::after{
+        bottom: 50%;
+        transform: rotate(45deg) translate(0px,50%);
+       
+    }
+    .header__menuS{
+        flex-direction: column;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 22%);
+        justify-content: center;
+        z-index: 4;
+        
+    }
+    .header__menu{
+        color: white;
+        font-size: 50px;
+        font-weight: 400;
+     
+    }
+    
+    .header__navBody{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: translate(-100%,0px);
+        background-color: rgba(0,0,0,0.9);
+        transition:  all 1s ease ;
+        z-index: 2;
+        overflow-y: hidden;
+     
+    }
+    .header__navBody.active{
+        transition:  all 1s ease;
+        transform: translate(0%,0px);
+    }
+    .header__nav{
+        display: flex;
+        justify-content: space-evenly;
+    } 
+  
+}
+
+@media (max-width:768px){
+    .header__corosel-button{
+        padding: 10px 30px;
+    }
+    .header__menuS{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        transform: translate(-50%, 40%);
+    }
+    .header__menu{
+        font-size: 35px;
+    }
+    
+    .carouselImg{
+        height: 500px;
+    }
+    .carousel{
+        
+    }
+    .header__corosel-text {
+   
+        left: 50%;
+        transform: translate(-50%,-140%);
+    }
+    .header__coroselh3{
+        font-size: 15px;
+        max-width: 350px;
+    }
+    .header__coroselh1{
+        font-size: 50px;
+    } 
+    .aboutUs__block{
+        max-width: 450px;
+    }
+    .aboutUs__right{
+        padding-left: 0;
+    }
+    .benefits__left{
+        transform: translate(-50%, -140%); 
+    }
+    .benefits__li {
+        font-size: 11px;
+    }
+    .benefits__block{
+        margin: 5px 0;
+        height: 76px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+       
+    }
+
+
+   
+
+    .footer__icon{
+        padding-top: 10px !important;
+        
+        transform: translate(330%,-30%);
+    }
+    .footer__titleCart {
+        display: flex;
+        justify-content: center;
+        padding:40px 0 0 0;
+    }
+    .footer__info{
+        padding-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .footer__info {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .cartResolution{
+        width: 210px;
+    }
+}
+@media (max-width:650px){
+    .cartResolution{    
+        width: 180px;
+    }
+}
+@media (max-width:650px){
+    .footer__icon{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        transform: translate(0%,-0%);
+    }
+    .footer__quickLinks {
+        padding-left: 30px;
+    }
+    .footer__stayConnected{
+        padding-left: 30px;
+    }
+    
+}
+@media (max-width:610px){
+    .accordion{
+        width: auto;
+    }
+    .accordion-body-text{
+        max-width: 230px;
+    }
+    .footer__titleCart{
+        padding-top: 20px;
+    } 
+}
+@media (max-width:510px){
+    .testimonial__right{
+        padding: 50px 20px 30px 40px;
+    }
+    .accordion-body-text{
+        max-width: 230px;
+    }
+    .benefits__left {
+        transform: translate(-50%, -110%);
+    }
+    .benefits__block-title{
+        font-size: 20px;
+    }
+    .benefits__block{
+        height: 66px;
+    }
+}
+@media (max-width:460px){
+    .form__input{
+        width: 330px;
+    
+    }
+    .accordion-body-text{
+        max-width: 200px;
+    }
+}
+@media (max-width:420px){
+    
+    .cartResolution{
+        width: 150px;
+    }
+   
+    .accordion-body-text{
+        max-width: 180px;
+    }
+}
